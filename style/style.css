@@ -84,15 +84,30 @@ nav .menu {
     font-size: 52px;
     font-weight: 600;
 }
-button {
-    color:black;
+.botones button {
+    color: black;
     font-size: 15px;
     font-weight: 400;
-    padding: 8px 10px;
+    padding: 10px 40px;
     border-radius: 3px;
-    transition: all 0.3s ease
+    transition: all 0.3s ease;
+    background-color: white;
   }
-  button:hover {
+  
+  .botones button + button {
     color: white;
-    background: black;
-}
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 40px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+    background-color: black;
+  }
+  .botones button:hover {
+    background-color: transparent;
+    color:black;
+  }
+  .botones button + button:hover{ 
+    background-color: transparent;
+    color:black;
+  }
